@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    background: #3888af;
+}
+
+h1 {
+    color: #ff3b26;
+}
+nav {
+    width: 20%;
+    height: 100vh;
+    background: #3888af;
+    color: #ff3b26;
+    transition: all .2s linear;
+    position: relative;
+}
+
+nav h2, nav.fa-window-close {
+    display: inline-block;
+}
+
+nav h2 {
+    margin-top: 5px;
+    margin-left: 75px;
+}
+
+.nav-text.hidden {
+    position: absolute;
+    left: -1000px;
+}
+
+nav .fa-window-close {
+    color: #aef5ab;
+    float: right;
+    margin-right: 5px;
+}
+
+nav .fa-window-close:hover {
+    color: red;
+}
+
+nav ul {
+    margin-top: 100px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-top: 45px
+}
+
+nav ul li:hover {
+    color: white;
+}
+
+nav.copyright {
+    position: absolute;
+    bottom: 0;
+    margin-left: 20px;
+}
+
+nav.hidden {
+    width: 7.5%;
+}
+
+main {
+    flex: auto;
+    text-align: center;
+}
+
+.fa-bars {
+    position: absolute;
+    left: -1000px;
+}
+
+.fa-bars.active {
+    position: static;
+    left: 0px;
+    color:#ff3b26;
+    float: right;
+    margin-right: 40px;
+    margin-top: 75px;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "port-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodenom index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A-DiRusso/portfolio-take-two.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A-DiRusso/portfolio-take-two/issues"
+  },
+  "homepage": "https://github.com/A-DiRusso/portfolio-take-two#readme",
+  "dependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
