@@ -2,7 +2,7 @@
 const exitButton = document.querySelector('[data-close]');
 const nav = document.querySelector('nav');
 
-const navText = document.querySelector('.nav-test');
+const navText = document.querySelector('.nav-text');
 const menuBars = document.querySelector('.fa-bars');
 
 function showNav() {
@@ -13,7 +13,7 @@ function showNav() {
 
 function hideNav() {
     nav.classList.add('hidden');
-    navText.classList('hidden');
+    navText.classList.add('hidden');
     menuBars.classList.add('active');
 }
 

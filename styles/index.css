@@ -4,12 +4,12 @@ body {
 }
 
 h1 {
-    color: #ff3b26;
+    color: #ffdb63;
 }
 nav {
     width: 20%;
     height: 100vh;
-    background: #3888af;
+    background: #828AF5;
     color: #ff3b26;
     transition: all .2s linear;
     position: relative;
